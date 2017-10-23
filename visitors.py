@@ -4,7 +4,7 @@ from ISStreamer.Streamer import Streamer
 
 # Tell the Pi we're going to use it's numbering system
 GPIO.setmode(GPIO.BCM)
-# Pin that D1 is connected to
+# Pins that D1 and LED are connected to
 PIN=23
 BLUE = 17
 GREEN = 27
